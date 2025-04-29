@@ -336,7 +336,6 @@ export default function ChatBox() {
         <div className="flex flex-col bg-[#1a1a1a] h-screen items-center justify-between p-4">
             {/* Transcription Display Area */}
             <div className='h-full min-w-4xl max-w-4xl relative  mb-4 flex items-center justify-center'>
-                <Blob />
                 <div
                     ref={transcriptionContainerRef}
                     className=" text-left min-w-xl max-w-xl  rounded-md flex flex-wrap justify-start text-lg leading-relaxed overflow-y-auto scrollbar-hide"
